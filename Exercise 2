@@ -1,0 +1,28 @@
+package myScanner;
+
+import java.util.Scanner;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a;
+		double b;
+		
+		Scanner scan = new Scanner (System.in);
+		
+		System.out.println("Enter an integer: ");
+		a = scan.nextInt();
+		
+		System.out.println("Enter a double: ");
+		b = scan.nextDouble();
+		
+		System.out.println("The sum is " + a);
+		System.out.println("The sum is " + b);
+		
+		double average = (a+b)/2;
+		System.out.println("The average: " + average);
+		
+	}
+
+}
